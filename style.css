@@ -1,0 +1,130 @@
+html,
+body {
+  height: 800px;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400px;
+  line-height: 1.8em;
+  color: #666;
+}
+.picimg1 {
+  background-image: url(images/image1.jpg);
+  min-height: 98%;
+}
+.picimg2 {
+  background-image: url(images/image2.jpg);
+  min-height: 400px;
+}
+.picimg3 {
+  background-image: url(images/AMD1.jpg);
+  min-height: 100%;
+}
+.picimg4 {
+  background-image: url(images/Amd2.jpg);
+  min-height: 400px;
+}
+.picimg1,
+.picimg2,
+.picimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.picimg4 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 92%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: rgba(11, 6, 11, 0.333);
+  color: #fff;
+  padding: 5px;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.5);
+  border-radius: 10px;
+}
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.ptextIntel {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+  color: rgb(32, 9, 136);
+  font-size: 24px;
+  letter-spacing: 6px;
+  text-transform: lowercase;
+  font-family: Arial, Helvetica, sans-serif 50px;
+}
+.textBgIntel {
+  background: rgba(7, 77, 197, 0.333);
+  color: #fff;
+  box-shadow: 4px 3px 5px rgba(25, 25, 210, 0.5);
+  border-radius: 20px;
+}
+.section-lightIntel {
+  background-color: #0d0f11;
+  color: #666;
+}
+.ptextAMD {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-size: 25px;
+  letter-spacing: 4.4px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif 50px;
+}
+
+.section-lightAMD {
+  background-color: silver;
+  color: oldlace;
+}
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-lightAMDIntel {
+  background-color: #f4f4f4;
+  color: #0e0606;
+}
+.footer {
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.button_container {
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  border: transparent solid 2px;
+  padding: 4px 4px;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s ease-in;
+  margin-top: 50px;
+}
